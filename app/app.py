@@ -6,7 +6,7 @@ import os
 import urllib.request
 
 # Database Path Configuration
-DB_PATH = os.path.join(os.path.dirname(__file__), "data", "furniture_orders.db")
+DB_PATH = os.path.join(os.getcwd(), "furniture_orders.db")
 DB_GITHUB_URL = "https://raw.githubusercontent.com/Inaammm/Furni4-Dashboard/main/data/furniture_orders.db"
 
 # Ensure database exists
