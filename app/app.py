@@ -1,6 +1,7 @@
 import streamlit as st
 import sqlite3
 import pandas as pd
+import plotly.express as px
 from datetime import datetime, date
 import os
 import urllib.request
@@ -19,8 +20,8 @@ if not os.path.exists(DB_PATH):
 
 # Authentication Users
 USERS = {
-    "admin": "admin123",
-    "vendor1": "password123",
+    "Furni4": "Tass@143",
+    "zameer": "9620090100",
     "vendor2": "password456"
 }
 
