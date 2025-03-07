@@ -22,7 +22,7 @@ if not os.path.exists(DB_PATH):
 USERS = {
     "Furni4": "Tass@143",
     "zameer": "9620090100",
-    "vendor2": "password456"
+    "vendor2": "password123"
 }
 
 def authenticate(username, password):
